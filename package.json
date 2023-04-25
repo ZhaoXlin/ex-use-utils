@@ -1,0 +1,26 @@
+{
+    "name": "ex-use-utils",
+    "version": "1.0.1",
+    "description": "自己用的常用的小工具",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "u": "./bin/index.js"
+    },
+    "keywords": [
+        "qrcode",
+        "image"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^10.0.1",
+        "images": "^3.2.4",
+        "inquirer": "^8.0.0",
+        "jimp": "^0.22.7",
+        "qr-image": "^3.2.0",
+        "qrcode-reader": "^1.0.4"
+    }
+}
